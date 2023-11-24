@@ -1,0 +1,28 @@
+Katcode How to code Discord bot
+Coding Discord bot in katcode is a pain. to fix that go to your config and enable RNX layout for less pain
+to start up
+Add the repo ```dnf.discord.com``` and ```import discord.katcode.it```
+and then ```import kat``` cuz we will be using it for later on
+The pain part, the commands
+add 
+
+```
+discord.katcode@commandprefix="[yourprefixhere]"
+```
+
+Then your command 
+For example we will be adding test command
+it will be
+
+```discord.katcode@command="test"
+-sentmessage="Hello i am discord bot coded in katcode"
+  -api="discord.com/app"
+  -id="[leave this blink for it to auto gen auth ids]"```
+
+And then the fun part, the discord bot token and env
+Do you know kat we imported from before, Yeah thats going to be used
+put ```kat@startanotherfile=".env"```
+
+and then put your token in the .env
+DISCORD_TOKEN="[tokengoesinhere]"
+and then run the code, and voila your perfect discord bot

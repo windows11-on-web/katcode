@@ -1,0 +1,27 @@
+Katcode How to code
+Katcode is based on a regedit format which is easyest to learn, But you can enable RNX layout in your config file, Lets get to making you learn
+- RNX Layout [More useful then the regedit layout]="off" --beta
+Edit off to on for it to be enabled, but this is by default enabled in katcode 24.xx
+
+RNX format is
+```[packagename]@[functionname]
+ - [function1]
+ - [function2]
+ - [function3]```
+
+RNX mixed with regedit
+
+```[packagename]@[functionname]="[setting]"
+ - [function1]
+ - [function2]
+ - [function3]```
+
+Regedit
+
+```[packagename]@[functionname]="[setting For example 0 is off and 1 is on]"```
+
+Virtual modules are addable modules that apply to every file without import [package] But virtual modules are powerful, With power comes more erroring if you do the wrong thing Virtual modules are mostly used in katcode config Virtual built in katcode modules are katcode and KatVM Katvm virtual module is disableable Just put in the config file
+```- VM Module [Run VMs inside katcode using this virtual module]="off"```
+ and this will disable it,
+also if you want to DISABLE Virtual modules fully, You cant they are a core of katcode
+​

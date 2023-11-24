@@ -1,0 +1,31 @@
+# Katcode Config File
+K         K         AAA       TTTTTTTTT    CCCCCCCCC     OOOOOOOOOOO     DDDDDDDDD    EEEEEEEEEE
+K        K         A   A          T       C             O           O    D        D   E
+K       K         A     A         T       C             O           O    D        D   E
+KKKKKKKK         AAAAAAAAA        T       C             O           O    D        D   EEEEEEEEEE
+K       K       A         A       T       C             O           O    D        D   E
+K        K     A           A      T       C             O           O    D        D   E
+K         K   A             A     T        CCCCCCCCC     OOOOOOOOOOO     DDDDDDDDD    EEEEEEEEEE
+# You're running Katcode 25.40 LTS
+
+# What can you config today
+- VM Module [Run VMs inside katcode using this virtual module]="on"
+- Katcode Stable Mode [Makes your code auto repair]="on" --beta 
+- RNX Layout [More useful then the regedit layout]="on" --beta
+
+# Point to run files [Your project files in Open source terms]
+# filepoint="main.katcode"
+
+# File configs
+- Config file Format [edit the format of your config file]="katsystem"
+- File format [Edit the format of your katcode files]="katcode"
+
+# Repo Config
+
+Repo1="packages-katcode.carrd.co" --name Default-built-in-Repo --enabled
+Repo2="packages-katcode-beta.carrd.co" --name Default-built-in-Repo --enabled
+
+# Replace enabled with disabled to disable and enable repos 
+
+# Import Virtual modules [Put a module from the repo to here and, this module will be in every file Even without import cuz thats the power of virtual modules]
+- katcodebeta="enabled" --virtualmodule

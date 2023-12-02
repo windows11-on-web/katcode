@@ -8,10 +8,8 @@
 katcode git xfceruntime --repo http://xfce-runtime_katcode-git.carrd.co
 git clone https://github.com/windows11-on-web/katcode.git
 
-# You do not need the allow list packages since it is done auto when you start the code, So resulting in no allow list needed.
-
 # What can you config today
-- VM Module [Run VMs inside katcode using this virtual module]="on"
+- VM Module [Run VMs inside katcode using this virtual module, Note that this module is outdated, Please use KVMKC for more better power]="on"
 - Katcode Stable Mode [Makes your code auto repair]="on" --beta 
 - RNX Layout [More useful then the regedit layout]="on" --beta
 - NXC Layout [Useful for nerd regedit users]="off" --beta
